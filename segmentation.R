@@ -8,7 +8,7 @@ imgfile <- commandArgs(trailingOnly=TRUE)
 outname = gsub(".tif$", "_segments.gpkg", imgfile)
   
 print(imgfile)
-img = rast(imgfile)
+img = rast(imgfile)[[1:7]] #channel 8 is NA
 
 seeds = snic_grid(img, spacing = 40)
 segmentation_snic = snic(img, seeds)
