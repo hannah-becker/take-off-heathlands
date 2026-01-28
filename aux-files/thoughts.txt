@@ -1,0 +1,15 @@
+
+
+#segmentation:
+- will produce files that are roughly a tenth of the originating tif
+- runs fine locally using ~ 500MB files
+- can handle ~1.3GB file locally
+- needs ~ 10x file size in RAM while processing
+
+
+#tiling:
+- tiling files applies LZW compression. ok?
+
+
+#list which files contain heathland  #---#
+
