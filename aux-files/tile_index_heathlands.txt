@@ -1,0 +1,132 @@
+TILE          FFH LRT 4010 or 4030
+
+Authausen_01.tif    NO
+Authausen_02.tif    YES
+Authausen_03.tif    NO
+Authausen_04.tif    NO
+Authausen_05.tif    YES
+Authausen_06.tif    YES
+Authausen_07.tif    YES
+Authausen_08.tif    NO
+Authausen_09.tif    NO
+Authausen_10.tif    NO
+Authausen_11.tif    NO
+Authausen_12.tif    YES
+Authausen_13.tif    NO
+Authausen_14.tif    NO
+Authausen_15.tif    NO
+
+Bendeleben_01.tif   NO
+
+Cuxhaven_01.tif     YES
+
+Gluecksburg_01.tif  YES
+Gluecksburg_02.tif  YES
+Gluecksburg_03.tif  YES
+Gluecksburg_04.tif  YES
+Gluecksburg_05.tif  YES
+Gluecksburg_06.tif  YES
+Gluecksburg_07.tif  YES
+
+Goitzsche_01.tif    NO
+
+Hartmannsdorf_01.tif    NO
+Hartmannsdorf_02.tif    NO
+Hartmannsdorf_03.tif    NO
+Hartmannsdorf_04.tif    NO
+
+Kuehnau_01.tif  NO
+Kuehnau_02.tif  NO
+Kuehnau_03.tif  NO
+Kuehnau_04.tif  YES
+
+Kuhlmorgen_01.tif   NO
+
+Mellrichstadt_01.tif    NO
+
+Poellwitz_01.tif    YES
+Poellwitz_02.tif    YES
+Poellwitz_03.tif    YES
+Poellwitz_04.tif    YES
+Poellwitz_05.tif    YES
+
+Reiterswiesen_01.tif    NO
+Reiterswiesen_02.tif    NO
+Reiterswiesen_03.tif    NO
+Reiterswiesen_04.tif    NO
+Reiterswiesen_05.tif    NO
+Reiterswiesen_06.tif    NO
+Reiterswiesen_07.tif    NO
+Reiterswiesen_08.tif    NO
+Reiterswiesen_09.tif    NO
+Reiterswiesen_10.tif    NO
+Reiterswiesen_11.tif    NO
+Reiterswiesen_12.tif    NO
+Reiterswiesen_13.tif    NO
+Reiterswiesen_14.tif    NO
+Reiterswiesen_15.tif    NO
+
+Ruethnick_01.tif    YES
+Ruethnick_02.tif    NO
+Ruethnick_03.tif    YES
+Ruethnick_04.tif    YES
+
+Tennerlohe_01.tif   YES
+
+Ueckermuende_01.tif NO
+Ueckermuende_02.tif NO
+Ueckermuende_03.tif NO
+Ueckermuende_04.tif NO
+Ueckermuende_05.tif NO
+Ueckermuende_06.tif NO
+Ueckermuende_07_2024_duplicate.tif  NO
+Ueckermuende_07.tif NO
+Ueckermuende_08.tif NO
+Ueckermuende_09.tif NO
+Ueckermuende_10.tif NO
+Ueckermuende_11.tif NO
+Ueckermuende_12.tif NO
+
+Weisshaus_01.tif    NO
+Weisshaus_02.tif    YES
+Weisshaus_03.tif    YES
+Weisshaus_04.tif    NO
+
+WestlicheHainleite_01.tif   NO
+
+# HEATHLAND TILES
+
+Authausen_02.tif
+Authausen_05.tif
+Authausen_06.tif
+Authausen_07.tif
+Authausen_12.tif
+
+Cuxhaven_01.tif
+
+Gluecksburg_01.tif
+Gluecksburg_02.tif
+Gluecksburg_03.tif
+Gluecksburg_04.tif
+Gluecksburg_05.tif
+Gluecksburg_06.tif
+Gluecksburg_07.tif
+
+Kuehnau_04.tif
+
+Poellwitz_01.tif
+Poellwitz_02.tif
+Poellwitz_03.tif
+Poellwitz_04.tif
+Poellwitz_05.tif
+
+Ruethnick_01.tif
+
+Ruethnick_03.tif
+Ruethnick_04.tif
+
+Tennerlohe_01.tif
+
+Weisshaus_02.tif
+Weisshaus_03.tif
+
