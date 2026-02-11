@@ -94,39 +94,4 @@ Weisshaus_04.tif    NO
 
 WestlicheHainleite_01.tif   NO
 
-# HEATHLAND TILES
-
-Authausen_02.tif
-Authausen_05.tif
-Authausen_06.tif
-Authausen_07.tif
-Authausen_12.tif
-
-Cuxhaven_01.tif
-
-Gluecksburg_01.tif
-Gluecksburg_02.tif
-Gluecksburg_03.tif
-Gluecksburg_04.tif
-Gluecksburg_05.tif
-Gluecksburg_06.tif
-Gluecksburg_07.tif
-
-Kuehnau_04.tif
-
-Poellwitz_01.tif
-Poellwitz_02.tif
-Poellwitz_03.tif
-Poellwitz_04.tif
-Poellwitz_05.tif
-
-Ruethnick_01.tif
-
-Ruethnick_03.tif
-Ruethnick_04.tif
-
-Tennerlohe_01.tif
-
-Weisshaus_02.tif
-Weisshaus_03.tif
 
