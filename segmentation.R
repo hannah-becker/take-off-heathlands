@@ -1,7 +1,6 @@
 # segmentation
 library(terra)
 library(snic)
-library(sf)
 
 
 #imgfile <- commandArgs(trailingOnly=TRUE)
@@ -21,16 +20,9 @@ for (i in 1:length(dirs)){
     seg_poly$class <- ""
     seg_poly$shadow <- NA
     seg_poly$unsure <- NA
-    outname <- gsub(".tif$", "_segments.gpkg", files[j])
+    outname <- paste0("temp_gpkg_storage/", gsub(".tif$", "_segments.gpkg", basename(files[j])))
     writeVector(seg_poly, outname, overwrite = TRUE)
   }
 }
-
-testfile <- vect("data/test_segments.gpkg")
-
-writeVector(testfile, "~/takeoff/netdrive/DBU_tiles/testdata.gpkg", filetype = "GPKG", overwrite = TRUE)
-
-testfile <- st_as_sf(testfile)
-write_sf(testfile, "~/takeoff/netdrive/DBU_tiles/testdata.gpkg")
 
 
