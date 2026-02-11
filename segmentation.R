@@ -1,6 +1,7 @@
 # segmentation
 library(terra)
 library(snic)
+library(sf)
 
 
 #imgfile <- commandArgs(trailingOnly=TRUE)
@@ -25,9 +26,11 @@ for (i in 1:length(dirs)){
   }
 }
 
+testfile <- vect("data/test_segments.gpkg")
 
+writeVector(testfile, "~/takeoff/netdrive/DBU_tiles/testdata.gpkg", filetype = "GPKG", overwrite = TRUE)
 
-
-
+testfile <- st_as_sf(testfile)
+write_sf(testfile, "~/takeoff/netdrive/DBU_tiles/testdata.gpkg")
 
 
