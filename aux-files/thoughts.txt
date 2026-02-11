@@ -10,7 +10,7 @@
 
 
 #tiling:
-- tiling files applies LZW compression. ok?
+- tiling files applies LZW compression. ok? yes
 
 
   #---#
