@@ -4,12 +4,15 @@
 - will produce files that are roughly a tenth of the originating tif
 - runs fine locally using ~ 500MB files
 - can handle ~1.3GB file locally
-- needs ~ 10x file size in RAM while processing
+- needs ~ 10x file size in RAM while processing (does not scale linearly for larger files)
+
+- can't write .gpkg files to shared drive (but can write them to local just fine). can write .tif files to shared drive without issues. investigate
 
 
 #tiling:
 - tiling files applies LZW compression. ok?
 
 
-#list which files contain heathland  #---#
+  #---#
+#list which files contain heathland
 
