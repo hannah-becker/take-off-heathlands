@@ -1,4 +1,6 @@
 # segmentation
+
+# requirements ----
 library(terra)
 library(snic)
 
@@ -7,6 +9,8 @@ library(snic)
 #imgfile <- "~/takeoff/netdrive/DBU_tiles/Weisshaus/Weisshaus_03_tile_3.tif"
 
 dirs <- list.dirs("~/takeoff/netdrive/DBU_tiles", recursive = FALSE) 
+
+# increment processed-directories counter: # dirs done
 
 for (i in 1:length(dirs)){
   files <- list.files(dirs[i], pattern = ".tif", full.names = TRUE)
