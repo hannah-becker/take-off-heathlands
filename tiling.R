@@ -9,9 +9,9 @@ dirs <- list.dirs("~/takeoff/netdrive/DBU_labeling", recursive = FALSE)
 index <- read.csv("./aux-files/tile_index_heathlands.csv")[[1]]
 
 #loop over files in directories and check against needed heathland files index, then tile
-#already tiled:  <- add to dirs index nr list
+#already tiled:  all :)
 
-for(i in 1:length(dirs)){
+for(i in 1:1){
   files <- list.files(dirs[i], pattern = ".tif", full.names = TRUE)
   for(j in 1:length(files)){
     if(basename(files[j]) %in% index){
