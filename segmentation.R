@@ -9,14 +9,13 @@ library(snic)
 
 dirs <- list.dirs("~/takeoff/netdrive/DBU_tiles", recursive = FALSE) 
 
-# increment processed-directories counter: # dirs done
 
-
-for (i in 8:length(dirs)){
+#dir 8
+for (i in 1:length(dirs)){
   files <- list.files(dirs[i], pattern = ".tif", full.names = TRUE)
-  for(j in 1:length(files)){
+  if (class(try(for(j in 1:length(files)){
     img <- rast(files[j])[[1:7]] #channel 8 is NA
-    if (unique(terra::global(img, fun = "anynotNA")$anynotNA)) {
+    if (unique(terra::global(img, fun = "anynotNA")$anynotNA)) { #don't care about the ones that're fully NA
       seeds <- snic_grid(img, spacing = 40)
       segmentation_snic <- snic(img, seeds)
       seg_snic <- snic_get_seg(segmentation_snic)
@@ -25,11 +24,21 @@ for (i in 8:length(dirs)){
       seg_poly$class <- ""
       seg_poly$shadow <- NA
       seg_poly$unsure <- NA
-      outname <- paste0("temp_gpkg_storage/", gsub(".tif$", "_segments.gpkg", basename(files[j])))
+      outname <- paste0("temp_gpkg_storage/", gsub(".tif$", "_segments.gpkg", basename(files[j]))) #can't write these to netdrive for some reason
       writeVector(seg_poly, outname, overwrite = TRUE)
     }
-  }
+  })) == "try-error"){next} #some tiles have data but too little for seed placement at spacing = 40
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
