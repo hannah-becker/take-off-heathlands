@@ -12,8 +12,9 @@ for (i in 1:length(dirs)){
     seg_poly$shadow <- FALSE
     seg_poly$overexposed <- FALSE
     seg_poly$confidence <- rep(10)
-    outname <- paste0("temp_gpkg_storage/", files[j])
-      writeVector(seg_poly, outname, overwrite = TRUE)
+    outname <- gsub("segments.gpkg", "segments_new.gpkg", files[j])
+    #outname <- paste0("temp_gpkg_storage/", basename(files[j]))
+    write_sf(seg_poly, outname)
   }
 }
 
